@@ -1,0 +1,151 @@
+
+body {
+  position: relative;
+  color: white;
+  height: 100vh;
+  background: linear-gradient(
+    200.96deg,
+    #fedc2a -29.09%,
+    #dd5789 51.77%,
+    #7a2c9e 129.35%
+  );
+  font-family: sans-serif;
+  overflow-y: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  appearance: none;
+  font-size: 1.3rem;
+  box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12),
+    0px 18px 88px -4px rgba(24, 39, 75, 0.14);
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+button:hover {
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.common-button{
+  background-color: #da568a;
+  color: white;
+  border: 1px solid #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  appearance: none;
+  font-size: 12px;
+  transition: all ease-in 0.1s;
+  cursor: pointer;
+  opacity: 0.9;
+  line-height: 1;
+  min-width: 60px;
+}
+
+.fix-button {
+  margin-left: 10px;
+}
+
+.common-button:hover{
+  background-color: #e47474;
+  opacity: 1;
+}
+
+input[type='text']{
+  border: none;
+  border-radius: 4px;
+  min-height: 30px;
+  margin-right: 12px;
+  opacity: 0.9;
+  padding: 4px 12px;
+  width: 100%;
+}
+
+.input-field{
+  width: 100%;
+  display: flex;
+  opacity: 0.95;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.todo-list li{
+  line-height: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 0;
+}
+
+.todo-list li input,
+.todo-list li span{
+  cursor: pointer;
+  padding: 8px 12px;
+  display: inline-block;
+}
+
+/* テキスト部分をスペースに応じて伸縮 */
+.todo-list li span {
+  flex-grow: 1;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  height: fit-content;
+  width: fit-content;
+  margin: 10px;
+}
+
+a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
