@@ -15,6 +15,19 @@ npm run dev
 npm i sqlite3\nnpm i -D @types/sqlite3\nnpm i sqlite
 ```
 
+```bash
+npm install @prisma/client
+npm install prisma --save-dev
+```
+
+#### クライアントの生成
+
+```bash
+npx prisma init
+# npx prisma generate
+npm run prisma:generate
+```
+
 - 確認
   package.json
 
